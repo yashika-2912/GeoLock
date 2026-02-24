@@ -10,6 +10,7 @@
     "start": "serve -s dist -l 8080"
   },
   "dependencies": {
+    "@radix-ui/react-tooltip": "^1.2.8",
     "@supabase/supabase-js": "^2.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
