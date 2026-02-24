@@ -89,3 +89,6 @@
     "vite-plugin-svgr": "^4.5.0"
   }
 }
+"dependencies": {
+  "serve": "^14.2.0"
+}
