@@ -1,6 +1,4 @@
-# Welcome to Your Miaoda Project
-Miaoda Application Link URL
-    URL:https://medo.dev/projects/app-9u0cqizefu2p
+
 
 # Secure Geo-Fencing QR Access System with AI Alerts
 
@@ -192,10 +190,5 @@ For issues or questions:
 3. Ensure location permissions are granted in browser
 4. Check that QR code hasn't expired
 
-## License
 
-© 2026 Secure Geo-Fencing QR Access System
 
----
-
-**Note**: This is a demonstration system. For production use, implement proper encryption, secure key management, and additional security measures.
