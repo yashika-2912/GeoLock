@@ -1,0 +1,53 @@
+# Task: Build Secure Geo-Fencing QR Access System with AI Alerts
+
+## Plan
+- [x] Step 1: Design system and initialize Supabase
+  - [x] Create color scheme and design tokens
+  - [x] Initialize Supabase with database schema
+  - [x] Create storage bucket for encrypted documents
+  - [x] Set up RLS policies
+- [x] Step 2: Implement backend Edge Functions
+  - [x] Create document encryption/decryption function
+  - [x] Create access validation function with geo-fencing
+  - [x] Create OTP generation function
+  - [x] Create AI alerts function with Ollama integration
+- [x] Step 3: Build authentication system
+  - [x] Update AuthContext for login/logout
+  - [x] Create Login page
+  - [x] Create Register page
+  - [x] Update RouteGuard for protected routes
+  - [x] Add navbar with auth status
+- [x] Step 4: Build core application pages
+  - [x] Create Dashboard page (upload + logs + map)
+  - [x] Create QR Scanner page
+  - [x] Create Document Viewer page
+  - [x] Create Admin panel for user management
+- [x] Step 5: Implement document management
+  - [x] Create UploadForm component with encryption
+  - [x] Create QRGenerator component
+  - [x] Create DocumentList component
+  - [x] Implement document revoke and self-destruct
+- [x] Step 6: Implement access control features
+  - [x] Create QRScanner component with geo-validation
+  - [x] Create AccessLogs component with real-time updates
+  - [x] Create MapViewer component for location tracking
+  - [x] Create OTP verification dialog
+- [x] Step 7: Implement AI alert system
+  - [x] Create AlertPanel component
+  - [x] Integrate Ollama for suspicious activity detection
+  - [x] Add log summarization feature
+- [x] Step 8: Final integration and testing
+  - [x] Set up Supabase Realtime for live updates
+  - [x] Test all access control flows
+  - [x] Run lint and fix issues
+  - [x] Verify all features work end-to-end
+
+## Notes
+- Using username + password authentication (no email verification)
+- Documents stored in Supabase Storage with encryption
+- Geo-fencing uses browser Geolocation API
+- Ollama integration via Edge Function for AI alerts
+- Real-time updates using Supabase Realtime subscriptions
+- Roles: owner (can upload/manage), viewer (can scan/view), admin (full access)
+- First registered user automatically becomes admin
+- All features implemented and tested successfully
